@@ -233,7 +233,7 @@ export default function Home(){
             <div className="mt-10 text-char/80">
               <h3 className="text-cocoa text-xl md:text-2xl mt-6">Sliding Scale & Accessibility</h3>
               <p className="mt-3 font-quicksand">Everyone deserves nurturing support. If cost is a concern, please contact me to discuss sliding scale options or referrals.</p>
-              <button onClick={() => window.dispatchEvent(new CustomEvent('openContactModal'))} className="underline text-cocoa hover:opacity-80 bg-transparent border-none p-0 font-inherit cursor-pointer">Need financial support? Contact Us →</button>
+              <button onClick={() => window.dispatchEvent(new CustomEvent('openContactModal'))} className="underline text-cocoa hover:opacity-80 bg-transparent border-none p-0 font-quicksand cursor-pointer">Need financial support? Contact Us →</button>
             </div>
           </div>
         </div>
@@ -364,13 +364,13 @@ export default function Home(){
         <div className="mx-auto max-w-3xl px-4">
           <h1 className="text-white text-4xl">Contact</h1>
           <div className="card p-8 mt-6 text-center">
-            <p className="text-char/90 mb-4">
+            <p className="text-char/90 mb-4 font-quicksand">
               Email: <a className="underline text-cocoa hover:opacity-80" href="mailto:hello@rootedlactationed.com">hello@rootedlactationed.com</a>
             </p>
-            <p className="text-char/90">
+            <p className="text-char/90 font-quicksand">
               Phone: <a className="underline text-cocoa hover:opacity-80" href="tel:240-715-2292">240-715-2292</a>
             </p>
-            <p className="text-char/90 mt-4 mb-4">
+            <p className="text-char/90 mt-4 mb-4 font-quicksand">
               Social Media Handle: @rootedlactioned
             </p>
             <div className="flex gap-4 justify-center">

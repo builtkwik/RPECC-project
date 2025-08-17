@@ -50,7 +50,7 @@ export default function Home(){
           <div className="bg-white rounded-brand p-8 mb-8 shadow-card">
             <h1 className="text-cocoa text-5xl text-center">Services</h1>
             <p className="mt-4 text-char/90 max-w-prose font-helvetica font-light italic text-center mx-auto text-[17px]">
-              At Rooted Lactation & Education, I offer heart-centered support to guide you through pregnancy, birth, and the early days of parenthood.
+              At Rooted Perinatal Education Collective, I offer heart-centered support to guide you through pregnancy, birth, and the early days of parenthood.
             </p>
           </div>
           
@@ -231,7 +231,7 @@ export default function Home(){
             </div>
 
             <div className="mt-10 text-char/80">
-              <h3 className="text-cocoa text-xl md:text-2xl mt-6">Sliding Scale & Accessibility</h3>
+              <h3 className="text-cocoa text-xl md:text-2xl mt-6 font-helvetica font-bold">Sliding Scale & Accessibility</h3>
               <p className="mt-3 font-quicksand">Everyone deserves nurturing support. If cost is a concern, please contact me to discuss sliding scale options or referrals.</p>
               <button onClick={() => window.dispatchEvent(new CustomEvent('openContactModal'))} className="underline text-cocoa hover:opacity-80 bg-transparent border-none p-0 font-quicksand cursor-pointer">Need financial support? Contact Us →</button>
             </div>
@@ -364,13 +364,13 @@ export default function Home(){
         <div className="mx-auto max-w-3xl px-4">
           <h1 className="text-white text-4xl">Contact</h1>
           <div className="card p-8 mt-6 text-center">
-            <p className="text-char/90 mb-4 font-quicksand">
+            <p className="text-char/90 mb-4 font-quicksand text-sm md:text-base">
               Email: <a className="underline text-cocoa hover:opacity-80" href="mailto:hello@rootedlactationed.com">hello@rootedlactationed.com</a>
             </p>
-            <p className="text-char/90 font-quicksand">
+            <p className="text-char/90 font-quicksand text-sm md:text-base">
               Phone: <a className="underline text-cocoa hover:opacity-80" href="tel:240-715-2292">240-715-2292</a>
             </p>
-            <p className="text-char/90 mt-4 mb-4 font-quicksand">
+            <p className="text-char/90 mt-4 mb-4 font-quicksand text-sm md:text-base">
               Social Media Handle: @rootedlactioned
             </p>
             <div className="flex gap-4 justify-center">

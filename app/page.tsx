@@ -86,6 +86,10 @@ export default function Home(){
                   <div className="mt-4">
                     <ContactButton />
                   </div>
+                  <div className="mt-4 text-char/80">
+                    <p className="font-quicksand">Everyone deserves nurturing support. If cost is a concern, please contact me to discuss sliding scale options or referrals.</p>
+                    <button onClick={() => window.dispatchEvent(new CustomEvent('openContactModal'))} className="underline text-cocoa hover:opacity-80 bg-transparent border-none p-0 font-quicksand cursor-pointer">Need financial support? Contact Us →</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -114,19 +118,85 @@ export default function Home(){
                   <div className="mt-4">
                     <ContactButton />
                   </div>
+                  <div className="mt-4 text-char/80">
+                    <p className="font-quicksand">Everyone deserves nurturing support. If cost is a concern, please contact me to discuss sliding scale options or referrals.</p>
+                    <button onClick={() => window.dispatchEvent(new CustomEvent('openContactModal'))} className="underline text-cocoa hover:opacity-80 bg-transparent border-none p-0 font-quicksand cursor-pointer">Need financial support? Contact Us →</button>
+                  </div>
                 </div>
               </div>
             </div>
 
             <hr className="my-12 border-rose/40" id="postpartum" />
             <div className="w-full h-2 bg-gradient-to-r from-earth via-bark to-forest rounded-full mb-6"></div>
-            <h2 className="text-cocoa text-3xl md:text-3xl text-center md:text-left" style={{ fontSize: 'clamp(26px, 4vw, 30px)' }}>Postpartum Packages</h2>
+            <h2 className="text-cocoa text-3xl md:text-3xl text-center md:text-left" style={{ fontSize: 'clamp(26px, 4vw, 30px)' }}>Lactation & Postpartum Support</h2>
 
             <div className="card p-6 md:p-8 mt-6">
               <div className="md:grid md:grid-cols-2 md:gap-6">
                 <div className="w-full h-48 md:h-full md:aspect-square mb-4 md:mb-0 md:order-2">
                   <Image 
-                    src="/images/Night-and-Day-San-Diego-postpartum-doula-faq-postpartum-support-daytime-postpartum-doula-nighttime-postpartum-doula-breastfeeding-support.webp" 
+                    src="/images/d7510-black-breastfeeding-mom.jpg" 
+                    alt="Single lactation consultation - personalized breastfeeding support" 
+                    className="w-full h-full object-cover rounded-brand"
+                    width={800}
+                    height={600}
+                  />
+                </div>
+                <div className="md:order-1">
+                  <h3 className="text-forest text-2xl font-quicksand font-black">Single Lactation Support Visit — $95</h3>
+                  <div className="text-char/90 mt-2 font-quicksand">1 hour, virtual or in-home</div>
+                  <ul className="mt-4 list-disc pl-5 text-char/90 space-y-1 font-quicksand">
+                    <li>Personalized feeding guidance and latch support</li>
+                    <li>Tips on pumping, milk supply, and managing common challenges</li>
+                    <li>Text/email follow-up for 48 hours after the visit</li>
+                  </ul>
+                  <div className="mt-4">
+                    <ContactButton />
+                  </div>
+                  <div className="mt-4 text-char/80">
+                    <p className="font-quicksand">Everyone deserves nurturing support. If cost is a concern, please contact me to discuss sliding scale options or referrals.</p>
+                    <button onClick={() => window.dispatchEvent(new CustomEvent('openContactModal'))} className="underline text-cocoa hover:opacity-80 bg-transparent border-none p-0 font-quicksand cursor-pointer">Need financial support? Contact Us →</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="card p-6 md:p-8 mt-6">
+              <div className="md:grid md:grid-cols-2 md:gap-6">
+                <div className="w-full h-48 md:h-full md:aspect-square mb-4 md:mb-0 md:order-2">
+                  <Image 
+                    src="/images/6151cdd15d7ba.webp" 
+                    alt="Back-to-work breastfeeding support - pumping and workplace guidance" 
+                    className="w-full h-full object-cover rounded-brand"
+                    width={800}
+                    height={600}
+                  />
+                </div>
+                <div className="md:order-1">
+                  <h3 className="text-forest text-2xl font-quicksand font-black">Back-to-Work Support Package: "Rooted & Returning" — $175–$200</h3>
+                  <div className="text-char/90 mt-2 font-quicksand">Two 1–1.5 hour visits (virtual or in-home) — one before returning to work, one after</div>
+                  <ul className="mt-4 list-disc pl-5 text-char/90 space-y-1 font-quicksand">
+                    <li>Guidance on pumping schedules, milk storage, and maintaining supply</li>
+                    <li>Personalized plan for navigating workplace challenges</li>
+                    <li>Latch and feeding assessments as needed</li>
+                    <li>Text/email follow-up for 2 weeks after final visit</li>
+                    <li>Optional additional check-ins at discounted rate</li>
+                  </ul>
+                  <div className="mt-4">
+                    <ContactButton />
+                  </div>
+                  <div className="mt-4 text-char/80">
+                    <p className="font-quicksand">Everyone deserves nurturing support. If cost is a concern, please contact me to discuss sliding scale options or referrals.</p>
+                    <button onClick={() => window.dispatchEvent(new CustomEvent('openContactModal'))} className="underline text-cocoa hover:opacity-80 bg-transparent border-none p-0 font-quicksand cursor-pointer">Need financial support? Contact Us →</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="card p-6 md:p-8 mt-6">
+              <div className="md:grid md:grid-cols-2 md:gap-6">
+                <div className="w-full h-48 md:h-full md:aspect-square mb-4 md:mb-0 md:order-2">
+                  <Image 
+                    src="/images/0000016e-905c-d934-a5ef-b27fef880000.webp" 
                     alt="Postpartum doula providing nurturing support to new mother and baby" 
                     className="w-full h-full object-cover rounded-brand"
                     width={800}
@@ -137,7 +207,7 @@ export default function Home(){
                   <h3 className="text-forest text-2xl font-quicksand font-black">Nourish & Nurture Postpartum Package — $500</h3>
                   <div className="text-char/90 mt-2 font-quicksand">Three in-home visits, 2 hours each (6 total hours) over 2–3 weeks</div>
                   <ul className="mt-4 list-disc pl-5 text-char/90 space-y-1 font-quicksand">
-                    <li>Lactation support from a Certified Lactation Specialist & Breastfeeding Consultant</li>
+                    <li>Lactation support</li>
                     <li>Light housekeeping (dishes, laundry, nursery tidying)</li>
                     <li>Nourishing meal or snack prep</li>
                     <li>Infant care while you rest or shower</li>
@@ -147,6 +217,10 @@ export default function Home(){
                   </ul>
                   <div className="mt-4">
                     <ContactButton />
+                  </div>
+                  <div className="mt-4 text-char/80">
+                    <p className="font-quicksand">Everyone deserves nurturing support. If cost is a concern, please contact me to discuss sliding scale options or referrals.</p>
+                    <button onClick={() => window.dispatchEvent(new CustomEvent('openContactModal'))} className="underline text-cocoa hover:opacity-80 bg-transparent border-none p-0 font-quicksand cursor-pointer">Need financial support? Contact Us →</button>
                   </div>
                 </div>
               </div>
@@ -164,16 +238,20 @@ export default function Home(){
                   />
                 </div>
                 <div className="md:order-1">
-                  <h3 className="text-forest text-2xl font-quicksand font-black">Lactation Support Package — $275</h3>
-                  <div className="text-char/90 mt-2 font-quicksand">Three visits, 1 to 1.5 hours each (3–4.5 total hours), virtual or in-home</div>
+                  <h3 className="text-forest text-2xl font-quicksand font-black">Lactation Support Package (3 Visits) — $250</h3>
+                  <div className="text-char/90 mt-2 font-quicksand">Three 1–1.5 hour visits (total 3–4.5 hours), virtual or in-home</div>
                   <ul className="mt-4 list-disc pl-5 text-char/90 space-y-1 font-quicksand">
-                    <li>Feeding assessments and latch support</li>
-                    <li>Personalized care plans and education</li>
-                    <li>Guidance on pumping, milk supply, and common challenges</li>
-                    <li>Text/email follow-up for 2 weeks after last visit</li>
+                    <li>Personalized feeding guidance and latch support</li>
+                    <li>Individualized care plans and breastfeeding education</li>
+                    <li>Tips on pumping, milk supply, and managing common challenges</li>
+                    <li>Text/email follow-up for 2 weeks after the final visit</li>
                   </ul>
                   <div className="mt-4">
                     <ContactButton />
+                  </div>
+                  <div className="mt-4 text-char/80">
+                    <p className="font-quicksand">Everyone deserves nurturing support. If cost is a concern, please contact me to discuss sliding scale options or referrals.</p>
+                    <button onClick={() => window.dispatchEvent(new CustomEvent('openContactModal'))} className="underline text-cocoa hover:opacity-80 bg-transparent border-none p-0 font-quicksand cursor-pointer">Need financial support? Contact Us →</button>
                   </div>
                 </div>
               </div>
@@ -201,6 +279,10 @@ export default function Home(){
                   <div className="mt-4">
                     <ContactButton />
                   </div>
+                  <div className="mt-4 text-char/80">
+                    <p className="font-quicksand">Everyone deserves nurturing support. If cost is a concern, please contact me to discuss sliding scale options or referrals.</p>
+                    <button onClick={() => window.dispatchEvent(new CustomEvent('openContactModal'))} className="underline text-cocoa hover:opacity-80 bg-transparent border-none p-0 font-quicksand cursor-pointer">Need financial support? Contact Us →</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -226,14 +308,50 @@ export default function Home(){
                   <div className="mt-4">
                     <ContactButton />
                   </div>
+                  <div className="mt-4 text-char/80">
+                    <p className="font-quicksand">Everyone deserves nurturing support. If cost is a concern, please contact me to discuss sliding scale options or referrals.</p>
+                    <button onClick={() => window.dispatchEvent(new CustomEvent('openContactModal'))} className="underline text-cocoa hover:opacity-80 bg-transparent border-none p-0 font-quicksand cursor-pointer">Need financial support? Contact Us →</button>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <div className="mt-10 text-char/80">
-              <h3 className="text-cocoa text-xl md:text-2xl mt-6 font-helvetica font-bold">Sliding Scale & Accessibility</h3>
-              <p className="mt-3 font-quicksand">Everyone deserves nurturing support. If cost is a concern, please contact me to discuss sliding scale options or referrals.</p>
-              <button onClick={() => window.dispatchEvent(new CustomEvent('openContactModal'))} className="underline text-cocoa hover:opacity-80 bg-transparent border-none p-0 font-quicksand cursor-pointer">Need financial support? Contact Us →</button>
+            <hr className="my-12 border-rose/40" />
+            <div className="w-full h-2 bg-gradient-to-r from-honey via-rose to-sage rounded-full mb-6"></div>
+            <h2 className="text-cocoa text-3xl md:text-3xl text-center md:text-left" style={{ fontSize: 'clamp(26px, 4vw, 30px)' }}>Optional Add-Ons</h2>
+
+            <div className="card p-6 md:p-8 mt-6">
+              <div className="space-y-4">
+                <div className="flex justify-between items-center border-b border-rose/20 pb-3">
+                  <span className="text-forest font-quicksand font-semibold">Extra 30-min follow-up call or virtual check-in</span>
+                  <span className="text-cocoa font-quicksand font-bold">$35</span>
+                </div>
+                <div className="flex justify-between items-center border-b border-rose/20 pb-3">
+                  <span className="text-forest font-quicksand font-semibold">Additional in-home visit</span>
+                  <span className="text-cocoa font-quicksand font-bold">$90</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-forest font-quicksand font-semibold">Pumping / milk supply consultation</span>
+                  <span className="text-cocoa font-quicksand font-bold">$50</span>
+                </div>
+              </div>
+              <div className="mt-6">
+                <ContactButton />
+              </div>
+              <div className="mt-4 text-char/80">
+                <p className="font-quicksand">Everyone deserves nurturing support. If cost is a concern, please contact me to discuss sliding scale options or referrals.</p>
+                <button onClick={() => window.dispatchEvent(new CustomEvent('openContactModal'))} className="underline text-cocoa hover:opacity-80 bg-transparent border-none p-0 font-quicksand cursor-pointer">Need financial support? Contact Us →</button>
+              </div>
+            </div>
+
+            <hr className="my-12 border-rose/40" />
+            <div className="w-full h-2 bg-gradient-to-r from-honey via-rose to-sage rounded-full mb-6"></div>
+            <h2 className="text-cocoa text-3xl md:text-3xl text-center md:text-left" style={{ fontSize: 'clamp(26px, 4vw, 30px)' }}>Important Notice</h2>
+
+            <div className="card p-6 md:p-8 mt-6">
+              <p className="text-char/90 font-quicksand">
+                Services are provided by a Certified Lactation Specialist / Breastfeeding Consultant. Packages offer guidance, education, and support, but do not replace care from an IBCLC or healthcare provider. I am supervised by two accessible IBCLCs for more complex appointments.
+              </p>
             </div>
           </div>
         </div>
@@ -268,26 +386,35 @@ export default function Home(){
               }
             `}</style>
             <p className="mt-4 text-white/90 font-helvetica font-light">
-              I'm a Certified Lactation Specialist, Breastfeeding Consultant, Perinatal Health Worker, and doula (birth and
-              postpartum) dedicated to walking alongside families during one of the most meaningful and transformative
-              seasons of life—pregnancy, birth, and early parenting.
+              I'm a Perinatal Health Worker, birth assistant in–training, Certified Lactation Specialist,
+              Breastfeeding Consultant, and birth and postpartum doula committed to walking with families
+              through one of the most sacred seasons of life—pregnancy, birth, and early parenting.
             </p>
             <p className="mt-3 text-white/90 font-helvetica font-light">
-              Rooted Lactation & Education was born from my deep desire to see families feel supported, seen, and educated
-              as they nourish and bond with their babies. My approach is warm, inclusive, and grounded in evidence-based
-              care; but most of all, it's personal. I believe every family deserves guidance without judgment and a space where
-              questions are welcomed and confidence can grow.
+              Rooted Perinatal Education Collective was created to fill a gap in our local community especially
+              for "Black" and "Brown" families who often don't see themselves represented in perinatal and
+              lactation spaces. Our mission is to provide culturally-centered, evidence-based support so every
+              family feels seen, safe, and confident while nourishing and bonding with their baby.
             </p>
             <p className="mt-3 text-white/90 font-helvetica font-light">
-              In addition to lactation care, I work closely with a local midwife as a birth assistant, helping connect families to
-              individualized support and trusted community resources.
+              While I truly love supporting birthing people in all stages of the perinatal journey, my deepest
+              passion is empowering families in their breastfeeding/human milk feeding experience.
+            </p>
+            <p className="mt-3 text-white/90 font-helvetica font-light">
+              My approach is warm, inclusive, and grounded in lived experience. I believe guidance should be
+              judgment-free, questions should always be welcome, and care should reflect the culture and
+              values of the families being served.
+            </p>
+            <p className="mt-3 text-white/90 font-helvetica font-light">
+              In addition to lactation care, I work alongside a local midwife as a birth assistant in-training and
+              help connect families to trusted, community-based resources throughout the DMV.
             </p>
 
-            <h2 className="text-white text-2xl mt-6">I offer:</h2>
+            <h2 className="text-white text-2xl mt-6">Services Offered:</h2>
             <ul className="list-disc pl-5 text-white/90 space-y-1 mt-2 font-helvetica font-light">
-              <li>Prenatal breastfeeding education</li>
+              <li>Prenatal Breastfeeding/Human Milk Education</li>
               <li>Postpartum lactation support</li>
-              <li>Birth doula services</li>
+              <li>Birth and Postpartum Doula Services</li>
               <li>Community resource connections</li>
             </ul>
 
@@ -396,6 +523,7 @@ export default function Home(){
     </>
   );
 }
+
 // Contact Button Component that uses the global modal
 function ContactButton() {
   const handleClick = () => {

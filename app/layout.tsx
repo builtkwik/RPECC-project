@@ -72,8 +72,11 @@ function Nav({ onContactClick }: { onContactClick: () => void }) {
     <nav className="sticky top-0 z-40 bg-bark/95 backdrop-blur shadow-card border-b-2 border-forest/20">
       <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 text-white text-xl">
-          <img src="/images/Untitled design (1).png" alt="Rooted Logo" className="w-12 h-12" />
-          Rooted
+          <img src="/images/Untitled design (1).png" alt="Rooted Logo" className="w-12 h-12 md:w-16 md:h-16" />
+          <span className="text-sm md:text-xl leading-tight">
+            Rooted Perinatal<br />
+            Education Collective
+          </span>
         </Link>
         <div className="hidden md:flex gap-6 text-white">
           <a href="#services" className="hover:text-honey transition font-helvetica">Services</a>

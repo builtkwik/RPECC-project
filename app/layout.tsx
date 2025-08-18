@@ -26,7 +26,7 @@ function ContactModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => voi
             </a>
             {' '}(call or text) or{' '}
             <a href="mailto:hello@rootedlactationed.com" className="underline hover:text-honey">
-              hello@rootedlactationed.com
+              rootedperinataledu@gmail.com
             </a>
             . You'll hear back within 24 hours.
           </p>

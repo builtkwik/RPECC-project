@@ -492,29 +492,20 @@ export default function Home(){
           <h1 className="text-white text-4xl">Contact</h1>
           <div className="card p-8 mt-6 text-center">
             <p className="text-char/90 mb-4 font-quicksand text-sm md:text-base">
-              Email: <a className="underline text-cocoa hover:opacity-80" href="mailto:hello@rootedlactationed.com">hello@rootedlactationed.com</a>
+              Email: <a className="underline text-cocoa hover:opacity-80" href="mailto:rootedperinataledu@gmail.com">rootedperinataledu@gmail.com</a>
             </p>
             <p className="text-char/90 font-quicksand text-sm md:text-base">
               Phone: <a className="underline text-cocoa hover:opacity-80" href="tel:240-715-2292">240-715-2292</a>
             </p>
             <p className="text-char/90 mt-4 mb-4 font-quicksand text-sm md:text-base">
-              Social Media Handle: @rootedlactioned
+              Social Media Handle: @rootedperinataledu
             </p>
             <div className="flex gap-4 justify-center">
-              <a href="https://instagram.com/rootedlactioned" target="_blank" rel="noopener noreferrer" className="text-cocoa hover:text-honey transition">
+              <a href="https://instagram.com/rootedperinataledu" target="_blank" rel="noopener noreferrer" className="text-cocoa hover:text-honey transition">
                 <Instagram size={24} />
               </a>
-              <a href="https://facebook.com/rootedlactioned" target="_blank" rel="noopener noreferrer" className="text-cocoa hover:text-honey transition">
+              <a href="https://facebook.com/rootedperinataledu" target="_blank" rel="noopener noreferrer" className="text-cocoa hover:text-honey transition">
                 <Facebook size={24} />
-              </a>
-              <a href="https://youtube.com/@rootedlactioned" target="_blank" rel="noopener noreferrer" className="text-cocoa hover:text-honey transition">
-                <Youtube size={24} />
-              </a>
-              <a href="https://tiktok.com/@rootedlactioned" target="_blank" rel="noopener noreferrer" className="text-cocoa hover:text-honey transition">
-                <Music size={24} />
-              </a>
-              <a href="https://twitter.com/rootedlactioned" target="_blank" rel="noopener noreferrer" className="text-cocoa hover:text-honey transition">
-                <Twitter size={24} />
               </a>
             </div>
           </div>
